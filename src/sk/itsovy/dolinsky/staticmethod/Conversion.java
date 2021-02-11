@@ -3,8 +3,11 @@ package sk.itsovy.dolinsky.staticmethod;
 /**
  * @author Martin Dolinsky
  */
+
+public void Hello(){
+}
 public class Conversion {
-	public static int convertKilogramsToGrams(int kilograms, int divisor){
-		return kilograms / divisor;
+	public static int convertKilogramsToGrams(int kilogram, int divisor){
+		return kilogram / divisor;
 	}
 }
