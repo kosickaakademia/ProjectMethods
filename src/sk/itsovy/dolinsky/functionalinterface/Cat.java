@@ -10,8 +10,9 @@ public class Cat {
 	}
 
 	public static void main(String[] args) {
-		Cat cat = new Cat();
-		MyInterface reference = cat::printSound;
+		Cat cats = new Cat();
+		//comment
+		MyInterface reference = cats::printSound;
 		reference.printSound("Meow!");
 	}
 }
